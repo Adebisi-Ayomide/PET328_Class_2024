@@ -1,4 +1,3 @@
-######### Assignment 2  ##################
 
 poro = input("What is the reservoir porosity")
 area = input("What is the acreage of the reservoir")
@@ -12,9 +11,7 @@ h = float(h)
 sw = float(sw)
 boi = float(boi)
 
-# Calculating STOIIP
 N = (7758*area*h*poro*(1-sw))/boi
 
-# Displaying the output
 print('The amount of oil initially in place is ', N)
 
