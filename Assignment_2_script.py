@@ -1,9 +1,9 @@
 
-poro = input("What is the reservoir porosity")
-area = input("What is the acreage of the reservoir")
-h = input("What is the thickness of the reservoir")
-sw = input("What is the water saturation of the reservoir")
-boi = input("What is formation volume factor of the reservoir fluid")
+poro = input("What is the reservoir porosity: ")
+area = input("What is the acreage of the reservoir: ")
+h = input("What is the thickness of the reservoir: ")
+sw = input("What is the water saturation of the reservoir: ")
+boi = input("What is formation volume factor of the reservoir fluid: ")
 
 poro = float(poro)
 area = float(area)
